@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navbar, .navbar .main-nav ul, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-nav {
+  text-shadow: 1px 1px 2px #c7c7c7;
+  font-family: 'Mada', sans-serif;
+  color: white;
+}
+
+body a:hover {
+  color: black;
+  cursor: pointer; }
+
+  body {
+    margin: 0;
+    font-family: 'Mada', sans-serif;
+    color: #fff;
+    -webkit-text-size-adjust: 100%; }
+    body p {
+      margin: 0;
+      line-height: 1.5rem;
+      letter-spacing: 1px; }
+      body h1,
+      body h2,
+      body h3 {
+        letter-spacing: 2px; }
+        body a {
+          color: inherit;
+          text-decoration: none;
+          transition: all .25s ease-out;
+        }
+
+        .hero-area {
+          min-height: 100vh;
+          width: auto;
+          position: relative;
+          background: url("../img/headerimg13.png") no-repeat center/cover; }
+          .hero-area .hero-background {
+            height: 100vh;
+            width: 100%;
+            display: table;
+            margin: 0 auto;
+            position: absolute;
+            text-align: center; }
+
+            @-webkit-keyframes fade-out {
+              20% {
+                opacity: 1; }
+                40% {
+                  opacity: 0; } }
+                  @-moz-keyframes fade-out {
+                    20% {
+                      opacity: 1; }
+                      40% {
+                        opacity: 0; } }
+                        @keyframes fade-out {
+                          20% {
+                            opacity: 1; }
+                            40% {
+                              opacity: 0; } }
+                              .hero-area .hero-background ul.photo-slider {
+                                list-style-type: none;
+                                padding: 0; }
+                                .hero-area .hero-background ul.photo-slider li {
+                                  height: 100%;
+                                  width: 100%;
+                                  position: absolute;
+                                  top: 0;
+                                  background: cover no-repeat;
+                                  z-index: 0;
+                                  opacity: 0;
+                                  -webkit-animation: fade-out 28s infinite both;
+                                  -moz-animation: fade-out 28s infinite both;
+                                  animation: fade-out 28s infinite both;
+                                  background: url("./coolpattern.jpg") no-repeat center/cover; }
+                                  .hero-area .hero-background ul.photo-slider li:nth-child(2) {
+                                    background: url("./coolpattern2.jpg") no-repeat center/cover;
+                                    -webkit-animation-delay: 5s;
+                                    -moz-animation-delay: 5s;
+                                    animation-delay: 5s; }
+                                    .hero-area .hero-background ul.photo-slider li:nth-child(3) {
+                                      background: url("./coolpattern3.jpg") no-repeat center/cover;
+                                      -webkit-animation-delay: 10s;
+                                      -moz-animation-delay: 10s;
+                                      animation-delay: 10s; }
+                                      .hero-area .hero-background ul.photo-slider li:nth-child(4) {
+                                        background: url("./coolpattern4.jpg") no-repeat center/cover;
+                                        -webkit-animation-delay: 15s;
+                                        -moz-animation-delay: 15s;
+                                        animation-delay: 15s; }
+                                        .hero-area .hero-background ul.photo-slider li:nth-child(5) {
+                                          background: url("./coolpattern5.jpg") no-repeat center/cover;
+                                          -webkit-animation-delay: 20s;
+                                          -moz-animation-delay: 20s;
+                                          animation-delay: 20s; }
+                                          .hero-area .title {
+                                            display: flex;
+                                            align-items: center;
+                                          }
