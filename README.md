@@ -7,14 +7,15 @@
 
 _This is a portfolio that will showcase my skills as a project manager_
 
-## WHAT IVE RESEARCHED ON FRIDAY THE 20TH
+## WHAT IVE DID ON FRIDAY THE 27TH ##
 
-_From 8am to 12pm I researched tutorials on building a portfolio piece in Gatsby._
+_From 8am to 12pm I researched tutorials and tried to build a grid to add videos to._
 
-_From 1pm to 3pm I researched other portfolio sites and took notes on what I liked and didn't like about their sites._
+_From 1pm to 2pm I re-sketched the wireframe for my site._
 
-_From 3pm to 5pm I roughly sketched out wire frames for a few different layouts for my portfolio and made this README._
+_From 2pm to 4pm I edited a my head shot in lightroom and researched how to fade the background color to match the background of my website._
 
+_From 4pm to 4:30 I refactored my code and updated my README._
 
 
 ## Setup/Installation Requirements
