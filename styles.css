@@ -1,8 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
 
-*,
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  list-style: none;
+}
+
+nav a {
+  color: white;
+}
+
+.rectangle {
+  height: 36px;
+  width: 200px;
+  background-color: #A66B12;
+  justify-content: center;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CODE I MIGHT STILL USE */
+
+/* *,
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
@@ -116,4 +169,4 @@ body a:hover {
                                           .hero-area .title {
                                             display: flex;
                                             align-items: center;
-                                          }
+                                          } */
