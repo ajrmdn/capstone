@@ -16,21 +16,40 @@ nav {
 
 nav a {
   color: white;
+  margin: 5px;
+}
+
+.navbar {
+  float: right;
+  padding: 20px;
+}
+
+.name-div {
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 .rectangle {
-  height: 36px;
-  width: 200px;
+  position: relative;
+  left: 515px;
+  top: 104px;
+  height: 100px;
+  width: 400px;
   background-color: #A66B12;
   justify-content: center;
-  height: 8rem;
+  height: 27px;
   display: flex;
   align-items: center;
   z-index: 100;
 }
 
-
-
+.name {
+  position: relative;
+  top: 61px;
+  left: 497px;
+  z-index: 100;
+}
 
 
 
