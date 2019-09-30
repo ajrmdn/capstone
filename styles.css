@@ -235,6 +235,20 @@ nav li #look:hover {
   z-index: 100;
 }
 
+.cover-rectangle {
+  position: relative;
+  left: 12px;
+  top: 90px;
+  height: 100px;
+  width: 1090px;
+  background-color: black;
+  justify-content: center;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
 
 
 
