@@ -14,6 +14,12 @@ nav {
   list-style: none;
 }
 
+nav.navbar {
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+}
+
 nav a {
   color: white;
   margin: 5px;
@@ -247,4 +253,18 @@ nav li #look:hover {
   display: flex;
   align-items: center;
   z-index: 1;
+}
+
+.carousel-inner {
+  max-height: 300px;
+  border-radius: 25px;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+  height: 300px;
+  width: auto;
 }
