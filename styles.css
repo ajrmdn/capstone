@@ -133,81 +133,81 @@ nav li #look:hover {
   z-index: 100;
 }
 
-.thinker-div {
+.think-div {
   position: absolute;
   left: 10px;
   top: 10px;
 }
 
-.thinker-rectangle {
+.think-rectangle {
   position: relative;
-  left: 12px;
-  top: 201px;
+  left: 16px;
+  top: 129px;
   height: 100px;
-  width: 1090px;
+  width: 192px;
   background-color: #5B9077;
   justify-content: center;
-  height: 123px;
+  height: 40px;
   display: flex;
   align-items: center;
   z-index: 100;
 }
 
-.thinker {
+.think {
   position: relative;
   top: 67px;
   left: -1px;
   z-index: 100;
 }
 
-.doer-div {
+.do-div {
   position: absolute;
   left: 10px;
   top: 10px;
 }
 
-.doer-rectangle {
+.do-rectangle {
   position: relative;
-  left: 12px;
-  top: 201px;
+  left: 10px;
+  top: 129px;
   height: 100px;
-  width: 1090px;
+  width: 108px;
   background-color: #903C3C;
   justify-content: center;
-  height: 123px;
+  height: 43px;
   display: flex;
   align-items: center;
   z-index: 100;
 }
 
-.doer {
+.do {
   position: relative;
   top: 67px;
   left: -1px;
   z-index: 100;
 }
 
-.talker-div {
+.talk-div {
   position: absolute;
   left: 10px;
   top: 10px;
 }
 
-.talker-rectangle {
+.talk-rectangle {
   position: relative;
-  left: 12px;
-  top: 101px;
+  left: 16px;
+  top: 30px;
   height: 100px;
-  width: 1090px;
+  width: 165px;
   background-color: #685270;
   justify-content: center;
-  height: 123px;
+  height: 38px;
   display: flex;
   align-items: center;
   z-index: 100;
 }
 
-.talker {
+.talk {
   position: relative;
   top: -30px;
   left: 2px;
@@ -222,13 +222,13 @@ nav li #look:hover {
 
 .gallery-rectangle {
   position: relative;
-  left: 12px;
-  top: 50px;
+  left: 13px;
+  top: -12px;
   height: 100px;
-  width: 1090px;
+  width: 177px;
   background-color: #A66B12;
   justify-content: center;
-  height: 123px;
+  height: 40px;
   display: flex;
   align-items: center;
   z-index: 100;
@@ -255,16 +255,21 @@ nav li #look:hover {
   z-index: 1;
 }
 
-.carousel-inner {
+h4 {
+  font-size: 55px;
+}
+
+/* .carousel-inner {
   max-height: 300px;
   border-radius: 25px;
 }
 
 .carousel-item {
   height: 300px;
+  max-width: 400px;
 }
 
 .carousel-item img {
   height: 300px;
-  width: auto;
-}
+  max-width: 400px;
+} */
